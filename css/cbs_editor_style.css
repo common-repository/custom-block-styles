@@ -1,0 +1,120 @@
+.editor-post-title {
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+.editor-post-title__block {
+  margin-bottom: 20px !important;
+  border: 1px solid #c29595;
+}
+.wp-block {
+  width: 100%;
+  max-width: 100%;
+  max-width: 800px !important;
+}
+/* ==================== Heading ====================== */
+
+h2[data-type="core/heading"], h3[data-type="core/heading"], h4[data-type="core/heading"], h5[data-type="core/heading"], h6[data-type="core/heading"]{
+background-color: #edf5ff;padding:5px;margin-top: 1.3rem;margin-bottom: 1.3rem;}
+h2[data-type="core/heading"]{font-size:20px !important;}
+h3[data-type="core/heading"]{font-size:18px !important;}
+h4[data-type="core/heading"]{font-size:16px !important;}
+h5[data-type="core/heading"]{font-size:14px !important;}
+
+/* ==================== Paragraph =====================*/
+
+p[data-type="core/paragraph"]{background-color: #edf5ff;padding: 5px;margin-top: 1.3rem !important;margin-bottom: 1.3rem !important;}
+p[data-type="core/paragraph"]{}
+
+/* ==================== Images  ====================== */
+
+figure[data-type="core/image"] {margin-top: 1.3rem;margin-bottom: 1.3rem;}
+figure[data-type="core/image"] img {display: block;margin: 0 auto;max-width: 100%;height: auto;}
+
+/* ==================== Buttons ====================== */
+
+div[data-type="core/button"]{margin: 0 !important;}
+
+div[data-type="core/button"] .wp-block-button__link{font-size: 14px !important;padding: 10px 30px;}
+
+/* ==================== List Items =================== */
+
+ul[data-type="core/list"]{
+  background-color: #edf5ff;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  padding: 5px 10px 5px 25px
+}
+
+/* ==================== columns  ====================== */
+
+div[data-type="core/columns"]{border:1px solid #ccc;padding-top:40px;}
+div[data-type="core/columns"]:before{
+	content:"columns";
+	background-color:#ccc;
+	padding:5px;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+div[data-type="core/column"]{border-right:1px solid #ccc}
+div[data-type="core/column"]:last-child{border:none;}
+
+
+/* ==================== Spacer / Gaps ====================== */
+div[data-type="core/spacer"]{
+	background-color: #fcebeb;
+}
+div[data-type="core/spacer"]:after{
+	content: "spacer" !important;
+color: #c03;
+text-align: center;
+font-size: 0.95rem;
+}
+
+/* ==================== Shortcode  Gutenberg ====================== */
+
+.wp-block-shortcode {
+  border: 1px dashed #979494;
+}
+
+/* ==================== Groups ====================== */
+
+div[data-type="core/group"]{
+	border:1px solid #000;
+	position:relative;
+	padding:2px;
+}
+div[data-type="core/group"]:before{
+	content:"group";
+	width:20px;
+	background-color:#ccc;
+	padding:5px;
+	width:100%;
+	display:block
+}
+
+
+
+
+/* ==================== Magic Blocks Gutenberg ====================== */
+
+div[data-type="magicblock/magicblock"]{
+	border:1px solid #ccc;
+}
+div[data-type="core/spacer"] .block-library-spacer__resize-container{
+	margin:0;
+}
+div[data-type="magicblock/magicblock"] .magicblock-label {
+  /*font-size: 12px;
+  background: #f1f1f1;
+  text-align: center;
+  width: 100%;
+  border: 0;*/
+  border-width:0 1px 0 0;
+  border-color: #ccc;
+  background: #ccc
+}
+
+/* Spacer in magic block */
